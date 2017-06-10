@@ -1,0 +1,75 @@
+.container {
+    position: absolute;
+    width: 700px;
+    z-index: 15;
+    top: 10%;
+    left: 30%;
+    border: 2px solid gray;
+    padding-top: 5px;
+}
+
+#trash {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 4px;
+    height: 40px;
+}
+
+#tools {
+    height : 50px;
+    padding-left: 10px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 4px;
+}
+
+.separator {
+    width:25%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+button {
+    margin: 0 10px 0 0;
+    padding: 8px 30px;
+    cursor: pointer;
+
+}
+
+#searchmail {
+    font-size: 10pt;
+    padding: 5px 0px 3px 7px;
+}
+
+#selectall {
+
+}
+
+#mailcontainer {
+    padding-left: 10px;
+    max-height: 350px;
+    overflow:auto
+}
+
+
+.left {
+    float: left;
+    font-size: 20px;
+}
+.mail {
+    height: 50px;
+    border-bottom: 2px solid gray;
+    margin-top: 4px;
+}
+
+#one {
+    width:15%;
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+
+.highlight {
+    background-color: gray;
+}
